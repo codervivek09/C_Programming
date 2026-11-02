@@ -25,15 +25,40 @@ void Display(int iNo)
 
     if(iCount == 1)
     {
-        if(iDigit == 1) { printf("One"); }
-        else if(iDigit == 2) { printf("Two"); }
-        else if(iDigit == 3) { printf("Three"); }
-        else if(iDigit == 4) { printf("Four"); }
-        else if(iDigit == 5) { printf("Five"); }
-        else if(iDigit == 6) { printf("Six"); }
-        else if(iDigit == 7) { printf("Seven"); }
-        else if(iDigit == 8) { printf("Eight"); }
-        else if(iDigit == 9) { printf("Nine"); }
+        switch (iDigit)
+        {
+        case 1:
+            printf("One");
+            break;
+        case 2:
+            printf("Two");
+            break;
+        case 3:
+            printf("Three");
+            break;
+        case 4:
+            printf("Four");
+            break;
+        case 5:
+            printf("Five");
+            break;
+        case 6:
+            printf("Six");
+            break;
+        case 7:
+            printf("Seven");
+            break;
+        case 8:
+            printf("Eight");
+            break;
+        case 9:
+            printf("Nine");
+            break;
+
+
+        default:
+            break;
+        }
     }
     else 
     {
